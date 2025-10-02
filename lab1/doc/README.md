@@ -1,5 +1,5 @@
-gcc parent.c -o parent
-gcc child.c -o child
+gcc parent.c -o parent \
+gcc child.c -o child \
 
 ./parent
 

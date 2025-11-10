@@ -1,4 +1,4 @@
-gcc parent.c -o parent
+gcc parent.c -o parent \
 gcc child.c -o child
 
 ./parent

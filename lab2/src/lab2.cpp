@@ -151,8 +151,6 @@ void print_results() {
                    << points[i].y << "," << points[i].cluster << "\n";
         }
         outfile.close();
-        cout << "\n✓ Все точки сохранены в файл 'clusters_output.csv'\n";
-        cout << "  Используйте Python/R/Excel для визуализации\n";
     }
 
     // 5. Сохранение центров кластеров отдельно

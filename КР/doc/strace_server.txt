@@ -1,0 +1,1090 @@
+6246  execve("./server", ["./server"], 0xffffe73e8a48 /* 76 vars */) = 0
+6246  brk(NULL)                         = 0xaaaadfb2e000
+6246  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xffffbaffc000
+6246  faccessat(AT_FDCWD, "/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/tls/aarch64/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/tls/aarch64/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/tls/aarch64/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/tls/aarch64", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/tls/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/tls/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/tls/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/tls", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/aarch64/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/aarch64/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/aarch64/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/aarch64", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib", {st_mode=S_IFDIR|0775, st_size=12288, ...}, 0) = 0
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/tls/aarch64/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/ros/noetic/lib/tls/aarch64/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/tls/aarch64/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/ros/noetic/lib/tls/aarch64", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/tls/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/ros/noetic/lib/tls/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/tls/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/ros/noetic/lib/tls", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/aarch64/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/ros/noetic/lib/aarch64/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/aarch64/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/ros/noetic/lib/aarch64", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/ros/noetic/lib/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/ros/noetic/lib", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls/aarch64/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls/aarch64/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls/aarch64/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls/aarch64", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/aarch64/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/aarch64/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/aarch64/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/aarch64", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/home/n1k/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls/aarch64/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls/aarch64/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls/aarch64/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls/aarch64", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/aarch64/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/aarch64/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/aarch64/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/aarch64", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/homebrew/lib/tls/aarch64/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/homebrew/lib/tls/aarch64/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/homebrew/lib/tls/aarch64/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/homebrew/lib/tls/aarch64", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/homebrew/lib/tls/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/homebrew/lib/tls/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/homebrew/lib/tls/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/homebrew/lib/tls", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/homebrew/lib/aarch64/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/homebrew/lib/aarch64/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/homebrew/lib/aarch64/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/homebrew/lib/aarch64", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/homebrew/lib/atomics/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/homebrew/lib/atomics", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/homebrew/lib/libzmq.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/opt/homebrew/lib", 0xffffc27c3440, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=252256, ...}) = 0
+6246  mmap(NULL, 252256, PROT_READ, MAP_PRIVATE, 3, 0) = 0xffffbaf92000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libzmq.so.5", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\340d\1\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=622304, ...}) = 0
+6246  mmap(NULL, 686248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffbaeea000
+6246  mprotect(0xffffbaf7a000, 65536, PROT_NONE) = 0
+6246  mmap(0xffffbaf8a000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x90000) = 0xffffbaf8a000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\220\247\t\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=1907976, ...}) = 0
+6246  mmap(NULL, 1984112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffbad05000
+6246  mprotect(0xffffbaeca000, 61440, PROT_NONE) = 0
+6246  mmap(0xffffbaed9000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c4000) = 0xffffbaed9000
+6246  mmap(0xffffbaee7000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xffffbaee7000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\320)\0\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=80200, ...}) = 0
+6246  mmap(NULL, 144472, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffbace1000
+6246  mprotect(0xffffbacf4000, 61440, PROT_NONE) = 0
+6246  mmap(0xffffbad03000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0xffffbad03000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0`\17\2\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0755, st_size=1450832, ...}) = 0
+6246  mmap(NULL, 1519552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffbab6e000
+6246  mprotect(0xffffbacc9000, 61440, PROT_NONE) = 0
+6246  mmap(0xffffbacd8000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15a000) = 0xffffbacd8000
+6246  mmap(0xffffbacde000, 12224, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xffffbacde000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libsodium.so.23", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libsodium.so.23", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libsodium.so.23", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libsodium.so.23", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libsodium.so.23", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libsodium.so.23", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libsodium.so.23", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libsodium.so.23", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libsodium.so.23", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libsodium.so.23", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libsodium.so.23", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libsodium.so.23", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\340\261\0\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=227504, ...}) = 0
+6246  mmap(NULL, 291312, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffbab26000
+6246  mprotect(0xffffbab5d000, 61440, PROT_NONE) = 0
+6246  mmap(0xffffbab6c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x36000) = 0xffffbab6c000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libpgm-5.2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libpgm-5.2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libpgm-5.2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libpgm-5.2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libpgm-5.2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libpgm-5.2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libpgm-5.2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libpgm-5.2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libpgm-5.2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libpgm-5.2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libpgm-5.2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libpgm-5.2.so.0", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0`9\0\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=297688, ...}) = 0
+6246  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xffffbaffa000
+6246  mmap(NULL, 378752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffbaac9000
+6246  mprotect(0xffffbab11000, 61440, PROT_NONE) = 0
+6246  mmap(0xffffbab20000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x47000) = 0xffffbab20000
+6246  mmap(0xffffbab22000, 14208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xffffbab22000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libnorm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libnorm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libnorm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libnorm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libnorm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libnorm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libnorm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libnorm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libnorm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libnorm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libnorm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libnorm.so.1", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\20\243\0\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=653256, ...}) = 0
+6246  mmap(NULL, 1444488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffba968000
+6246  mprotect(0xffffbaa04000, 65536, PROT_NONE) = 0
+6246  mmap(0xffffbaa14000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9c000) = 0xffffbaa14000
+6246  mmap(0xffffbaa18000, 723592, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xffffbaa18000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0`\277\0\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=293072, ...}) = 0
+6246  mmap(NULL, 357048, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffba910000
+6246  mprotect(0xffffba955000, 61440, PROT_NONE) = 0
+6246  mmap(0xffffba964000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x44000) = 0xffffba964000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0Ha\0\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0755, st_size=164304, ...}) = 0
+6246  mmap(NULL, 197624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffba8df000
+6246  mprotect(0xffffba8fb000, 61440, PROT_NONE) = 0
+6246  mmap(0xffffba90a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0xffffba90a000
+6246  mmap(0xffffba90c000, 13304, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xffffba90c000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\360\272\0\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=633832, ...}) = 0
+6246  mmap(NULL, 696440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffba834000
+6246  mprotect(0xffffba8cd000, 65536, PROT_NONE) = 0
+6246  mmap(0xffffba8dd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x99000) = 0xffffba8dd000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libkrb5.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\2001\2\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=880696, ...}) = 0
+6246  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xffffbaff8000
+6246  mmap(NULL, 944904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffba74d000
+6246  mprotect(0xffffba816000, 65536, PROT_NONE) = 0
+6246  mmap(0xffffba826000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc9000) = 0xffffba826000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\200=\0\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=182608, ...}) = 0
+6246  mmap(NULL, 249856, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffba710000
+6246  mprotect(0xffffba73b000, 65536, PROT_NONE) = 0
+6246  mmap(0xffffba74b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000) = 0xffffba74b000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libcom_err.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\260\23\0\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=14184, ...}) = 0
+6246  mmap(NULL, 77936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffba6fc000
+6246  mprotect(0xffffba6ff000, 61440, PROT_NONE) = 0
+6246  mmap(0xffffba70e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0xffffba70e000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\220-\0\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=51800, ...}) = 0
+6246  mmap(NULL, 115568, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffba6df000
+6246  mprotect(0xffffba6eb000, 61440, PROT_NONE) = 0
+6246  mmap(0xffffba6fa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0xffffba6fa000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\200\25\0\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=18280, ...}) = 0
+6246  mmap(NULL, 81936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffba6ca000
+6246  mprotect(0xffffba6cd000, 65536, PROT_NONE) = 0
+6246  mmap(0xffffba6dd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0xffffba6dd000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\00009\0\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=80624, ...}) = 0
+6246  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xffffbaff6000
+6246  mmap(NULL, 154096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffba6a4000
+6246  mprotect(0xffffba6b7000, 61440, PROT_NONE) = 0
+6246  mmap(0xffffba6c6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0xffffba6c6000
+6246  mmap(0xffffba6c8000, 6640, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xffffba6c8000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0P\17\0\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=14560, ...}) = 0
+6246  mmap(NULL, 78080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffba690000
+6246  mprotect(0xffffba693000, 61440, PROT_NONE) = 0
+6246  mmap(0xffffba6a2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0xffffba6a2000
+6246  close(3)                          = 0
+6246  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xffffbaff4000
+6246  mprotect(0xffffbacd8000, 16384, PROT_READ) = 0
+6246  mprotect(0xffffba6a2000, 4096, PROT_READ) = 0
+6246  mprotect(0xffffba6c6000, 4096, PROT_READ) = 0
+6246  mprotect(0xffffba6dd000, 4096, PROT_READ) = 0
+6246  mprotect(0xffffba6fa000, 4096, PROT_READ) = 0
+6246  mprotect(0xffffba90a000, 4096, PROT_READ) = 0
+6246  mprotect(0xffffba70e000, 4096, PROT_READ) = 0
+6246  mprotect(0xffffba74b000, 4096, PROT_READ) = 0
+6246  mprotect(0xffffba826000, 49152, PROT_READ) = 0
+6246  mprotect(0xffffba8dd000, 4096, PROT_READ) = 0
+6246  mprotect(0xffffba964000, 8192, PROT_READ) = 0
+6246  mprotect(0xffffbad03000, 4096, PROT_READ) = 0
+6246  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xffffbaff2000
+6246  mprotect(0xffffbaed9000, 45056, PROT_READ) = 0
+6246  mprotect(0xffffbaa14000, 12288, PROT_READ) = 0
+6246  mprotect(0xffffbab20000, 4096, PROT_READ) = 0
+6246  mprotect(0xffffbab6c000, 4096, PROT_READ) = 0
+6246  mprotect(0xffffbaf8a000, 28672, PROT_READ) = 0
+6246  mprotect(0xaaaac35d2000, 4096, PROT_READ) = 0
+6246  mprotect(0xffffbb001000, 4096, PROT_READ) = 0
+6246  munmap(0xffffbaf92000, 252256)    = 0
+6246  set_tid_address(0xffffbaff4ab0)   = 6246
+6246  set_robust_list(0xffffbaff4ac0, 24) = 0
+6246  rt_sigaction(SIGRTMIN, {sa_handler=0xffffba8e4bd0, sa_mask=[], sa_flags=SA_SIGINFO}, NULL, 8) = 0
+6246  rt_sigaction(SIGRT_1, {sa_handler=0xffffba8e4c90, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+6246  rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+6246  prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+6246  brk(NULL)                         = 0xaaaadfb2e000
+6246  brk(0xaaaadfb4f000)               = 0xaaaadfb4f000
+6246  futex(0xffffbaee76c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+6246  futex(0xffffbaee76cc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+6246  openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "0-5\n", 8192)            = 4
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/sys/devices/system/cpu", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+6246  fstat(3, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+6246  getdents64(3, /* 22 entries */, 32768) = 640
+6246  getdents64(3, /* 0 entries */, 32768) = 0
+6246  close(3)                          = 0
+6246  getpid()                          = 6246
+6246  sched_getaffinity(6246, 128, [0, 1, 2, 3, 4, 5]) = 32
+6246  openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=542, ...}) = 0
+6246  read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 542
+6246  read(3, "", 4096)                 = 0
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=252256, ...}) = 0
+6246  mmap(NULL, 252256, PROT_READ, MAP_PRIVATE, 3, 0) = 0xffffbaf92000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/tls/aarch64/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/aarch64-linux-gnu/tls/aarch64/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/tls/aarch64/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/aarch64-linux-gnu/tls/aarch64", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/tls/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/aarch64-linux-gnu/tls/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/tls/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/aarch64-linux-gnu/tls", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/aarch64/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/aarch64-linux-gnu/aarch64/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/aarch64/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/aarch64-linux-gnu/aarch64", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/aarch64-linux-gnu/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/aarch64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=237568, ...}, 0) = 0
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/tls/aarch64/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/tls/aarch64/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/tls/aarch64/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/tls/aarch64", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/tls/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/tls/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/tls/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/tls", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/aarch64/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/aarch64/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/aarch64/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/aarch64", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=237568, ...}, 0) = 0
+6246  openat(AT_FDCWD, "/lib/tls/aarch64/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/tls/aarch64/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/tls/aarch64/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/tls/aarch64", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/tls/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/tls/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/tls/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/tls", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/aarch64/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/aarch64/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/aarch64", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/lib/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/lib", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+6246  openat(AT_FDCWD, "/usr/lib/tls/aarch64/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/tls/aarch64/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/tls/aarch64/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/tls/aarch64", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/tls/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/tls/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/tls/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/tls", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/aarch64", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/atomics/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib/atomics", 0xffffc27c1770, 0) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  newfstatat(AT_FDCWD, "/usr/lib", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+6246  munmap(0xffffbaf92000, 252256)    = 0
+6246  openat(AT_FDCWD, "/home/n1k/catkin_ws/devel/lib/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/opt/ros/noetic/lib/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/atomics/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/aarch64/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/atomics/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "tls/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/atomics/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "aarch64/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "atomics/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6246  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=252256, ...}) = 0
+6246  mmap(NULL, 252256, PROT_READ, MAP_PRIVATE, 3, 0) = 0xffffbaf92000
+6246  close(3)                          = 0
+6246  openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+6246  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0P$\0\0\0\0\0\0"..., 832) = 832
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=51640, ...}) = 0
+6246  mmap(NULL, 140616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffffba66d000
+6246  mprotect(0xffffba678000, 65536, PROT_NONE) = 0
+6246  mmap(0xffffba688000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0xffffba688000
+6246  mmap(0xffffba68a000, 21832, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xffffba68a000
+6246  close(3)                          = 0
+6246  mprotect(0xffffba688000, 4096, PROT_READ) = 0
+6246  munmap(0xffffbaf92000, 252256)    = 0
+6246  openat(AT_FDCWD, "/etc/protocols", O_RDONLY|O_CLOEXEC) = 3
+6246  lseek(3, 0, SEEK_CUR)             = 0
+6246  fstat(3, {st_mode=S_IFREG|0644, st_size=2932, ...}) = 0
+6246  read(3, "# Internet (IP) protocols\n#\n# Up"..., 4096) = 2932
+6246  lseek(3, 0, SEEK_CUR)             = 2932
+6246  read(3, "", 4096)                 = 0
+6246  close(3)                          = 0
+6246  eventfd2(0, EFD_CLOEXEC)          = 3
+6246  fcntl(3, F_GETFL)                 = 0x2 (flags O_RDWR)
+6246  fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+6246  fcntl(3, F_GETFL)                 = 0x802 (flags O_RDWR|O_NONBLOCK)
+6246  fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+6246  getrandom("\x55\x13\x96\x27\x9f\x24\x45\x46\x60\x2c\x44\x16\xa2\xc8\x06\xac", 16, 0) = 16
+6246  getrandom("\x8b\xfb\x11\x51\x4d\x86\x1f\xe4\x59\x48\x67\xcb\x47\x1d\x33\xa8", 16, 0) = 16
+6246  eventfd2(0, EFD_CLOEXEC)          = 4
+6246  fcntl(4, F_GETFL)                 = 0x2 (flags O_RDWR)
+6246  fcntl(4, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+6246  fcntl(4, F_GETFL)                 = 0x802 (flags O_RDWR|O_NONBLOCK)
+6246  fcntl(4, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+6246  epoll_create1(EPOLL_CLOEXEC)      = 5
+6246  epoll_ctl(5, EPOLL_CTL_ADD, 4, {0, {u32=3753120592, u64=187650874282832}}) = 0
+6246  epoll_ctl(5, EPOLL_CTL_MOD, 4, {EPOLLIN, {u32=3753120592, u64=187650874282832}}) = 0
+6246  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0xffffb9e6c000
+6246  mprotect(0xffffb9e6d000, 8388608, PROT_READ|PROT_WRITE) = 0
+6246  clone(child_stack=0xffffba66b860, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[6247], tls=0xffffba66c660, child_tidptr=0xffffba66c030) = 6247
+6246  eventfd2(0, EFD_CLOEXEC <unfinished ...>
+6247  set_robust_list(0xffffba66c040, 24 <unfinished ...>
+6246  <... eventfd2 resumed>)           = 6
+6247  <... set_robust_list resumed>)    = 0
+6246  fcntl(6, F_GETFL <unfinished ...>
+6247  rt_sigprocmask(SIG_BLOCK, ~[RTMIN RT_1],  <unfinished ...>
+6246  <... fcntl resumed>)              = 0x2 (flags O_RDWR)
+6247  <... rt_sigprocmask resumed>NULL, 8) = 0
+6246  fcntl(6, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+6247  sched_getparam(6247,  <unfinished ...>
+6246  fcntl(6, F_GETFL <unfinished ...>
+6247  <... sched_getparam resumed>[0])  = 0
+6246  <... fcntl resumed>)              = 0x802 (flags O_RDWR|O_NONBLOCK)
+6247  sched_getscheduler(6247 <unfinished ...>
+6246  fcntl(6, F_SETFL, O_RDWR|O_NONBLOCK <unfinished ...>
+6247  <... sched_getscheduler resumed>) = 0 (SCHED_OTHER)
+6246  <... fcntl resumed>)              = 0
+6247  sched_setscheduler(6247, SCHED_OTHER, [0] <unfinished ...>
+6246  epoll_create1(EPOLL_CLOEXEC <unfinished ...>
+6247  <... sched_setscheduler resumed>) = 0
+6246  <... epoll_create1 resumed>)      = 7
+6247  prctl(PR_SET_NAME, "ZMQbg/Reaper" <unfinished ...>
+6246  epoll_ctl(7, EPOLL_CTL_ADD, 6, {0, {u32=3753120640, u64=187650874282880}} <unfinished ...>
+6247  <... prctl resumed>)              = 0
+6246  <... epoll_ctl resumed>)          = 0
+6247  epoll_pwait(5,  <unfinished ...>
+6246  epoll_ctl(7, EPOLL_CTL_MOD, 6, {EPOLLIN, {u32=3753120640, u64=187650874282880}}) = 0
+6246  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0xffffb966b000
+6246  mprotect(0xffffb966c000, 8388608, PROT_READ|PROT_WRITE) = 0
+6246  clone(child_stack=0xffffb9e6a860, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[6248], tls=0xffffb9e6b660, child_tidptr=0xffffb9e6b030) = 6248
+6248  set_robust_list(0xffffb9e6b040, 24 <unfinished ...>
+6246  eventfd2(0, EFD_CLOEXEC)          = 8
+6248  <... set_robust_list resumed>)    = 0
+6246  fcntl(8, F_GETFL <unfinished ...>
+6248  rt_sigprocmask(SIG_BLOCK, ~[RTMIN RT_1],  <unfinished ...>
+6246  <... fcntl resumed>)              = 0x2 (flags O_RDWR)
+6248  <... rt_sigprocmask resumed>NULL, 8) = 0
+6246  fcntl(8, F_SETFL, O_RDWR|O_NONBLOCK <unfinished ...>
+6248  sched_getparam(6248,  <unfinished ...>
+6246  <... fcntl resumed>)              = 0
+6248  <... sched_getparam resumed>[0])  = 0
+6246  fcntl(8, F_GETFL)                 = 0x802 (flags O_RDWR|O_NONBLOCK)
+6248  sched_getscheduler(6248 <unfinished ...>
+6246  fcntl(8, F_SETFL, O_RDWR|O_NONBLOCK <unfinished ...>
+6248  <... sched_getscheduler resumed>) = 0 (SCHED_OTHER)
+6246  <... fcntl resumed>)              = 0
+6248  sched_setscheduler(6248, SCHED_OTHER, [0] <unfinished ...>
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6248  <... sched_setscheduler resumed>) = 0
+6246  <... ppoll resumed>)              = 0 (Timeout)
+6248  prctl(PR_SET_NAME, "ZMQbg/IO/0" <unfinished ...>
+6246  socket(AF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+6248  <... prctl resumed>)              = 0
+6248  epoll_pwait(7,  <unfinished ...>
+6246  <... socket resumed>)             = 9
+6246  setsockopt(9, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+6246  bind(9, {sa_family=AF_INET, sin_port=htons(5555), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+6246  listen(9, 100)                    = 0
+6246  getsockname(9, {sa_family=AF_INET, sin_port=htons(5555), sin_addr=inet_addr("0.0.0.0")}, [128->16]) = 0
+6246  getsockname(9, {sa_family=AF_INET, sin_port=htons(5555), sin_addr=inet_addr("0.0.0.0")}, [128->16]) = 0
+6246  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  <... epoll_pwait resumed>[{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6246  write(8, "\1\0\0\0\0\0\0\0", 8 <unfinished ...>
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6246  <... write resumed>)              = 8
+6248  <... ppoll resumed>)              = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6,  <unfinished ...>
+6246  fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x3), ...}) = 0
+6248  <... read resumed>"\1\0\0\0\0\0\0\0", 8) = 8
+6246  write(1, "[SERVER] \320\241\320\265\321\200\320\262\320\265\321\200 \320\267\320\260\320\277\321\203\321\211"..., 58 <unfinished ...>
+6248  mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0 <unfinished ...>
+6246  <... write resumed>)              = 58
+6248  <... mmap resumed>)               = 0xffffb166b000
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  munmap(0xffffb166b000, 43601920 <unfinished ...>
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  <... munmap resumed>)             = 0
+6246  read(8,  <unfinished ...>
+6248  munmap(0xffffb8000000, 23506944 <unfinished ...>
+6246  <... read resumed>"\1\0\0\0\0\0\0\0", 8) = 8
+6248  <... munmap resumed>)             = 0
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6248  mprotect(0xffffb4000000, 135168, PROT_READ|PROT_WRITE <unfinished ...>
+6246  <... ppoll resumed>)              = 0 (Timeout)
+6248  <... mprotect resumed>)           = 0
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  epoll_ctl(7, EPOLL_CTL_ADD, 9, {0, {u32=3019901792, u64=281473701645152}}) = 0
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 9, {EPOLLIN, {u32=3019901792, u64=281473701645152}}) = 0
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3019901792, u64=281473701645152}}], 256, -1, NULL, 8) = 1
+6248  accept4(9, {sa_family=AF_INET, sin_port=htons(43762), sin_addr=inet_addr("127.0.0.1")}, [128->16], SOCK_CLOEXEC) = 10
+6248  setsockopt(10, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+6248  getsockname(10, {sa_family=AF_INET, sin_port=htons(5555), sin_addr=inet_addr("127.0.0.1")}, [128->16]) = 0
+6248  getpeername(10, {sa_family=AF_INET, sin_port=htons(43762), sin_addr=inet_addr("127.0.0.1")}, [128->16]) = 0
+6248  getpeername(10, {sa_family=AF_INET, sin_port=htons(43762), sin_addr=inet_addr("127.0.0.1")}, [128->16]) = 0
+6248  fcntl(10, F_GETFL)                = 0x2 (flags O_RDWR)
+6248  fcntl(10, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+6248  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  write(8, "\1\0\0\0\0\0\0\0", 8 <unfinished ...>
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  <... write resumed>)              = 8
+6246  read(8,  <unfinished ...>
+6248  epoll_ctl(7, EPOLL_CTL_ADD, 10, {0, {u32=3019921744, u64=281473701665104}} <unfinished ...>
+6246  <... read resumed>"\1\0\0\0\0\0\0\0", 8) = 8
+6248  <... epoll_ctl resumed>)          = 0
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN, {u32=3019921744, u64=281473701665104}} <unfinished ...>
+6246  <... ppoll resumed>)              = 0 (Timeout)
+6248  <... epoll_ctl resumed>)          = 0
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN|EPOLLOUT, {u32=3019921744, u64=281473701665104}}) = 0
+6248  recvfrom(10, 0xffffb4000d00, 12, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3019921744, u64=281473701665104}}], 256, 29999, NULL, 8) = 1
+6248  sendto(10, "\377\0\0\0\0\0\0\0\1\177", 10, 0, NULL, 0) = 10
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN, {u32=3019921744, u64=281473701665104}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3019921744, u64=281473701665104}}], 256, 29998, NULL, 8) = 1
+6248  recvfrom(10, "\377\0\0\0\0\0\0\0\1\177", 12, 0, NULL, NULL) = 10
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN|EPOLLOUT, {u32=3019921744, u64=281473701665104}}) = 0
+6248  recvfrom(10, 0xffffb4000d0a, 2, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3019921744, u64=281473701665104}}], 256, 29996, NULL, 8) = 1
+6248  sendto(10, "\3", 1, 0, NULL, 0)   = 1
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN, {u32=3019921744, u64=281473701665104}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3019921744, u64=281473701665104}}], 256, 29996, NULL, 8) = 1
+6248  recvfrom(10, "\3", 2, 0, NULL, NULL) = 1
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN|EPOLLOUT, {u32=3019921744, u64=281473701665104}}) = 0
+6248  recvfrom(10, 0xffffb4000d0b, 53, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3019921744, u64=281473701665104}}], 256, 29995, NULL, 8) = 1
+6248  sendto(10, "\0NULL\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 53, 0, NULL, 0) = 53
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN, {u32=3019921744, u64=281473701665104}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3019921744, u64=281473701665104}}], 256, 29994, NULL, 8) = 1
+6248  recvfrom(10, "\0NULL\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 53, 0, NULL, NULL) = 53
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN|EPOLLOUT, {u32=3019921744, u64=281473701665104}}) = 0
+6248  recvfrom(10, 0xffffb400bd78, 8192, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3019921744, u64=281473701665104}}], 256, -1, NULL, 8) = 1
+6248  sendto(10, "\4\31\5READY\vSocket-Type\0\0\0\3REP", 27, 0, NULL, 0) = 27
+6248  epoll_pwait(7, [{EPOLLIN|EPOLLOUT, {u32=3019921744, u64=281473701665104}}], 256, -1, NULL, 8) = 1
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN, {u32=3019921744, u64=281473701665104}}) = 0
+6248  recvfrom(10, "\4&\5READY\vSocket-Type\0\0\0\3REQ\10Iden"..., 8192, 0, NULL, NULL) = 40
+6248  write(8, "\1\0\0\0\0\0\0\0", 8)   = 8
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN|EPOLLOUT, {u32=3019921744, u64=281473701665104}} <unfinished ...>
+6246  read(8, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  <... epoll_ctl resumed>)          = 0
+6246  write(6, "\1\0\0\0\0\0\0\0", 8 <unfinished ...>
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN, {u32=3019921744, u64=281473701665104}} <unfinished ...>
+6246  <... write resumed>)              = 8
+6248  <... epoll_ctl resumed>)          = 0
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6246  <... ppoll resumed>)              = 0 (Timeout)
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3019901792, u64=281473701645152}}], 256, -1, NULL, 8) = 1
+6248  accept4(9, {sa_family=AF_INET, sin_port=htons(46786), sin_addr=inet_addr("127.0.0.1")}, [128->16], SOCK_CLOEXEC) = 11
+6248  setsockopt(11, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+6248  getsockname(11, {sa_family=AF_INET, sin_port=htons(5555), sin_addr=inet_addr("127.0.0.1")}, [128->16]) = 0
+6248  getpeername(11, {sa_family=AF_INET, sin_port=htons(46786), sin_addr=inet_addr("127.0.0.1")}, [128->16]) = 0
+6248  getpeername(11, {sa_family=AF_INET, sin_port=htons(46786), sin_addr=inet_addr("127.0.0.1")}, [128->16]) = 0
+6248  fcntl(11, F_GETFL)                = 0x2 (flags O_RDWR)
+6248  fcntl(11, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+6248  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  write(8, "\1\0\0\0\0\0\0\0", 8 <unfinished ...>
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  <... write resumed>)              = 8
+6246  read(8,  <unfinished ...>
+6248  epoll_ctl(7, EPOLL_CTL_ADD, 11, {0, {u32=3020004784, u64=281473701748144}} <unfinished ...>
+6246  <... read resumed>"\1\0\0\0\0\0\0\0", 8) = 8
+6248  <... epoll_ctl resumed>)          = 0
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN, {u32=3020004784, u64=281473701748144}} <unfinished ...>
+6246  <... ppoll resumed>)              = 0 (Timeout)
+6248  <... epoll_ctl resumed>)          = 0
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN|EPOLLOUT, {u32=3020004784, u64=281473701748144}}) = 0
+6248  recvfrom(11, 0xffffb4010f80, 12, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3020004784, u64=281473701748144}}], 256, 29999, NULL, 8) = 1
+6248  sendto(11, "\377\0\0\0\0\0\0\0\1\177", 10, 0, NULL, 0) = 10
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN, {u32=3020004784, u64=281473701748144}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3020004784, u64=281473701748144}}], 256, 29998, NULL, 8) = 1
+6248  recvfrom(11, "\377\0\0\0\0\0\0\0\1\177\3", 12, 0, NULL, NULL) = 11
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN|EPOLLOUT, {u32=3020004784, u64=281473701748144}}) = 0
+6248  recvfrom(11, 0xffffb4010f8b, 53, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3020004784, u64=281473701748144}}], 256, 29997, NULL, 8) = 1
+6248  sendto(11, "\3\0NULL\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 54, 0, NULL, 0) = 54
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN, {u32=3020004784, u64=281473701748144}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3020004784, u64=281473701748144}}], 256, 29996, NULL, 8) = 1
+6248  recvfrom(11, "\0NULL\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 53, 0, NULL, NULL) = 53
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN|EPOLLOUT, {u32=3020004784, u64=281473701748144}}) = 0
+6248  recvfrom(11, "\4&\5READY\vSocket-Type\0\0\0\3REQ\10Iden"..., 8192, 0, NULL, NULL) = 40
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  write(8, "\1\0\0\0\0\0\0\0", 8 <unfinished ...>
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  <... write resumed>)              = 8
+6246  read(8,  <unfinished ...>
+6248  sendto(11, "\4\31\5READY\vSocket-Type\0\0\0\3REP", 27, 0, NULL, 0 <unfinished ...>
+6246  <... read resumed>"\1\0\0\0\0\0\0\0", 8) = 8
+6248  <... sendto resumed>)             = 27
+6246  write(6, "\1\0\0\0\0\0\0\0", 8 <unfinished ...>
+6248  epoll_pwait(7,  <unfinished ...>
+6246  <... write resumed>)              = 8
+6248  <... epoll_pwait resumed>[{EPOLLOUT, {u32=3020004784, u64=281473701748144}}, {EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 2
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN, {u32=3020004784, u64=281473701748144}} <unfinished ...>
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6248  <... epoll_ctl resumed>)          = 0
+6246  <... ppoll resumed>)              = 0 (Timeout)
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3019921744, u64=281473701665104}}], 256, -1, NULL, 8) = 1
+6248  recvfrom(10, "\1\0\0\24CREATE Alice game1 2", 8192, 0, NULL, NULL) = 24
+6248  write(8, "\1\0\0\0\0\0\0\0", 8 <unfinished ...>
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  <... write resumed>)              = 8
+6246  read(8,  <unfinished ...>
+6248  epoll_pwait(7,  <unfinished ...>
+6246  <... read resumed>"\1\0\0\0\0\0\0\0", 8) = 8
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  <... epoll_pwait resumed>[{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6246  write(1, "[SERVER] \320\241\320\276\320\267\320\264\320\260\320\275\320\260 \320\270\320\263\321\200\320\260"..., 99 <unfinished ...>
+6248  <... ppoll resumed>)              = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6246  <... write resumed>)              = 99
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6248  read(6,  <unfinished ...>
+6246  <... ppoll resumed>)              = 0 (Timeout)
+6248  <... read resumed>"\1\0\0\0\0\0\0\0", 8) = 8
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN|EPOLLOUT, {u32=3019921744, u64=281473701665104}}) = 0
+6248  write(8, "\1\0\0\0\0\0\0\0", 8)   = 8
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6246  read(8,  <unfinished ...>
+6248  sendto(10, "\1\0\0\27\320\230\320\263\321\200\320\260 \321\201\320\276\320\267\320\264\320\260\320\275\320\260", 27, 0, NULL, 0 <unfinished ...>
+6246  <... read resumed>"\1\0\0\0\0\0\0\0", 8) = 8
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6248  <... sendto resumed>)             = 27
+6246  <... ppoll resumed>)              = 0 (Timeout)
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  <... ppoll resumed>)              = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3019921744, u64=281473701665104}}], 256, -1, NULL, 8) = 1
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN, {u32=3019921744, u64=281473701665104}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  recvfrom(11, "\1\0\0\22CREATE Bob game2 2", 8192, 0, NULL, NULL) = 22
+6248  write(8, "\1\0\0\0\0\0\0\0", 8)   = 8
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  epoll_pwait(7,  <unfinished ...>
+6246  read(8, "\1\0\0\0\0\0\0\0", 8)    = 8
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  <... epoll_pwait resumed>[{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6246  write(1, "[SERVER] \320\241\320\276\320\267\320\264\320\260\320\275\320\260 \320\270\320\263\321\200\320\260"..., 97) = 97
+6248  <... ppoll resumed>)              = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6248  read(6,  <unfinished ...>
+6246  <... ppoll resumed>)              = 0 (Timeout)
+6248  <... read resumed>"\1\0\0\0\0\0\0\0", 8) = 8
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN|EPOLLOUT, {u32=3020004784, u64=281473701748144}}) = 0
+6248  write(8, "\1\0\0\0\0\0\0\0", 8 <unfinished ...>
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  <... write resumed>)              = 8
+6246  read(8,  <unfinished ...>
+6248  sendto(11, "\1\0\0\27\320\230\320\263\321\200\320\260 \321\201\320\276\320\267\320\264\320\260\320\275\320\260", 27, 0, NULL, 0 <unfinished ...>
+6246  <... read resumed>"\1\0\0\0\0\0\0\0", 8) = 8
+6248  <... sendto resumed>)             = 27
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6246  <... ppoll resumed>)              = 0 (Timeout)
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  <... ppoll resumed>)              = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN, {u32=3020004784, u64=281473701748144}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  recvfrom(11, "\1\0\0\tLEAVE Bob", 8192, 0, NULL, NULL) = 13
+6248  write(8, "\1\0\0\0\0\0\0\0", 8)   = 8
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  epoll_pwait(7,  <unfinished ...>
+6246  read(8, "\1\0\0\0\0\0\0\0", 8)    = 8
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(1, "[SERVER] \320\230\320\263\321\200\320\276\320\272 Bob \320\262\321\213\321\210\320\265"..., 57) = 57
+6246  write(1, "[SERVER] \320\230\320\263\321\200\320\260 \"game2\" \320\267\320\260\320\272"..., 74) = 74
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  <... epoll_pwait resumed>[{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN|EPOLLOUT, {u32=3020004784, u64=281473701748144}}) = 0
+6248  sendto(11, "\1\0\0\35\320\222\321\213 \320\262\321\213\321\210\320\273\320\270 \320\270\320\267 \320\270\320\263\321\200\321"..., 33, 0, NULL, 0) = 33
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN, {u32=3020004784, u64=281473701748144}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  recvfrom(11, "\1\0\0\10FIND Bob", 8192, 0, NULL, NULL) = 12
+6248  write(8, "\1\0\0\0\0\0\0\0", 8)   = 8
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6246  read(8,  <unfinished ...>
+6248  epoll_pwait(7,  <unfinished ...>
+6246  <... read resumed>"\1\0\0\0\0\0\0\0", 8) = 8
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  <... epoll_pwait resumed>[{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN|EPOLLOUT, {u32=3020004784, u64=281473701748144}}) = 0
+6248  sendto(11, "\1\0\0\33game1 (1/2 \320\270\320\263\321\200\320\276\320\272\320\276\320\262)\n", 31, 0, NULL, 0) = 31
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN, {u32=3020004784, u64=281473701748144}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  recvfrom(11, "\1\0\0\16JOIN Bob game1", 8192, 0, NULL, NULL) = 18
+6248  write(8, "\1\0\0\0\0\0\0\0", 8)   = 8
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  epoll_pwait(7,  <unfinished ...>
+6246  read(8, "\1\0\0\0\0\0\0\0", 8)    = 8
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(1, "[SERVER] \320\230\320\263\321\200\320\276\320\272 Bob \320\277\320\276\320\264\320\272"..., 67) = 67
+6246  openat(AT_FDCWD, "/dev/urandom", O_RDONLY) = 12
+6246  read(12, "&vR\263", 4)            = 4
+6246  close(12)                         = 0
+6246  write(1, "[SERVER] \320\230\320\263\321\200\320\260 \"game1\" \320\275\320\260\321\207"..., 43) = 43
+6246  write(1, "[SERVER] \320\241\320\265\320\272\321\200\320\265\321\202\320\275\320\276\320\265 \321\207\320\270"..., 45) = 45
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  <... epoll_pwait resumed>[{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN|EPOLLOUT, {u32=3020004784, u64=281473701748144}}) = 0
+6248  sendto(11, "\1\0\0%\320\237\320\276\320\264\320\272\320\273\321\216\321\207\320\265\320\275\320\270\320\265 \321\203\321\201\320"..., 41, 0, NULL, 0) = 41
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN, {u32=3020004784, u64=281473701748144}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  recvfrom(11, "\1\0\0\rMOVE Bob 1000", 8192, 0, NULL, NULL) = 17
+6248  write(8, "\1\0\0\0\0\0\0\0", 8 <unfinished ...>
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  <... write resumed>)              = 8
+6248  epoll_pwait(7,  <unfinished ...>
+6246  read(8, "\1\0\0\0\0\0\0\0", 8)    = 8
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(1, "[SERVER] \320\245\320\276\320\264 \320\270\320\263\321\200\320\276\320\272\320\260 Bob"..., 82) = 82
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  <... epoll_pwait resumed>[{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN|EPOLLOUT, {u32=3020004784, u64=281473701748144}}) = 0
+6248  sendto(11, "\1\0\0\34\320\221\321\213\320\272\320\270: 0, \320\232\320\276\321\200\320\276\320\262\321\213: 0", 32, 0, NULL, 0) = 32
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN, {u32=3020004784, u64=281473701748144}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  recvfrom(11, "\1\0\0\rMOVE Bob 8953", 8192, 0, NULL, NULL) = 17
+6248  write(8, "\1\0\0\0\0\0\0\0", 8)   = 8
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6246  read(8,  <unfinished ...>
+6248  epoll_pwait(7,  <unfinished ...>
+6246  <... read resumed>"\1\0\0\0\0\0\0\0", 8) = 8
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(1, "[SERVER] \320\245\320\276\320\264 \320\270\320\263\321\200\320\276\320\272\320\260 Bob"..., 82) = 82
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  <... epoll_pwait resumed>[{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN|EPOLLOUT, {u32=3020004784, u64=281473701748144}}) = 0
+6248  sendto(11, "\1\0\0\34\320\221\321\213\320\272\320\270: 1, \320\232\320\276\321\200\320\276\320\262\321\213: 2", 32, 0, NULL, 0) = 32
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN, {u32=3020004784, u64=281473701748144}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3019921744, u64=281473701665104}}], 256, -1, NULL, 8) = 1
+6248  recvfrom(10, "\1\0\0\17MOVE Alice 8295", 8192, 0, NULL, NULL) = 19
+6248  mprotect(0xffffb4021000, 4096, PROT_READ|PROT_WRITE) = 0
+6248  write(8, "\1\0\0\0\0\0\0\0", 8)   = 8
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6246  read(8,  <unfinished ...>
+6248  epoll_pwait(7,  <unfinished ...>
+6246  <... read resumed>"\1\0\0\0\0\0\0\0", 8) = 8
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(1, "[SERVER] \320\245\320\276\320\264 \320\270\320\263\321\200\320\276\320\272\320\260 Ali"..., 84) = 84
+6246  write(1, "[SERVER] \320\230\320\263\321\200\320\260 \"game1\" \320\267\320\260\320\262"..., 74) = 74
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  <... epoll_pwait resumed>[{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN|EPOLLOUT, {u32=3019921744, u64=281473701665104}}) = 0
+6248  sendto(10, "\1\0\0,\320\237\320\276\320\261\320\265\320\264\320\260! \320\222\321\213 \320\262\321\213\320\270\320\263\321"..., 48, 0, NULL, 0) = 48
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3019921744, u64=281473701665104}}], 256, -1, NULL, 8) = 1
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN, {u32=3019921744, u64=281473701665104}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3019921744, u64=281473701665104}}], 256, -1, NULL, 8) = 1
+6248  recvfrom(10, "\1\0\0\nFIND Alice", 8192, 0, NULL, NULL) = 14
+6248  write(8, "\1\0\0\0\0\0\0\0", 8)   = 8
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  epoll_pwait(7,  <unfinished ...>
+6246  read(8, "\1\0\0\0\0\0\0\0", 8)    = 8
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  <... epoll_pwait resumed>[{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN|EPOLLOUT, {u32=3019921744, u64=281473701665104}}) = 0
+6248  sendto(10, "\1\0\0 \320\241\320\262\320\276\320\261\320\276\320\264\320\275\321\213\321\205 \320\270\320\263\321\200 \320\275"..., 36, 0, NULL, 0) = 36
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3019921744, u64=281473701665104}}], 256, -1, NULL, 8) = 1
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 10, {EPOLLIN, {u32=3019921744, u64=281473701665104}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3019921744, u64=281473701665104}}], 256, -1, NULL, 8) = 1
+6248  recvfrom(10, "", 8192, 0, NULL, NULL) = 0
+6248  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  epoll_ctl(7, EPOLL_CTL_DEL, 10, 0xffffb4005958) = 0
+6248  close(10)                         = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  write(8, "\1\0\0\0\0\0\0\0", 8)   = 8
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6246  read(8, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  <... ppoll resumed>)              = 0 (Timeout)
+6248  epoll_pwait(7,  <unfinished ...>
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  <... epoll_pwait resumed>[{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  write(8, "\1\0\0\0\0\0\0\0", 8 <unfinished ...>
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  <... write resumed>)              = 8
+6246  read(8, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6248  <... ppoll resumed>)              = 0 (Timeout)
+6248  epoll_pwait(7,  <unfinished ...>
+6246  <... ppoll resumed>)              = 0 (Timeout)
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  <... epoll_pwait resumed>[{EPOLLIN, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  recvfrom(11, "\1\0\0\tLEAVE Bob", 8192, 0, NULL, NULL) = 13
+6248  write(8, "\1\0\0\0\0\0\0\0", 8)   = 8
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  epoll_pwait(7,  <unfinished ...>
+6246  read(8, "\1\0\0\0\0\0\0\0", 8)    = 8
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(1, "[SERVER] \320\230\320\263\321\200\320\276\320\272 Bob \320\262\321\213\321\210\320\265"..., 57) = 57
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  <... epoll_pwait resumed>[{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN|EPOLLOUT, {u32=3020004784, u64=281473701748144}}) = 0
+6248  sendto(11, "\1\0\0\35\320\222\321\213 \320\262\321\213\321\210\320\273\320\270 \320\270\320\267 \320\270\320\263\321\200\321"..., 33, 0, NULL, 0) = 33
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6248  epoll_pwait(7, [{EPOLLOUT, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  epoll_ctl(7, EPOLL_CTL_MOD, 11, {EPOLLIN, {u32=3020004784, u64=281473701748144}}) = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3020004784, u64=281473701748144}}], 256, -1, NULL, 8) = 1
+6248  recvfrom(11, "", 8192, 0, NULL, NULL) = 0
+6248  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  epoll_ctl(7, EPOLL_CTL_DEL, 11, 0xffffb4019db8) = 0
+6248  close(11)                         = 0
+6248  epoll_pwait(7, [{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  write(8, "\1\0\0\0\0\0\0\0", 8)   = 8
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6246  read(8, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  <... ppoll resumed>)              = 0 (Timeout)
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0 <unfinished ...>
+6248  epoll_pwait(7,  <unfinished ...>
+6246  <... ppoll resumed>)              = 0 (Timeout)
+6246  write(6, "\1\0\0\0\0\0\0\0", 8)   = 8
+6248  <... epoll_pwait resumed>[{EPOLLIN, {u32=3753120640, u64=187650874282880}}], 256, -1, NULL, 8) = 1
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0 <unfinished ...>
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=6, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+6248  read(6, "\1\0\0\0\0\0\0\0", 8)    = 8
+6248  write(8, "\1\0\0\0\0\0\0\0", 8 <unfinished ...>
+6246  <... ppoll resumed>)              = 1 ([{fd=8, revents=POLLIN}])
+6248  <... write resumed>)              = 8
+6246  read(8,  <unfinished ...>
+6248  ppoll([{fd=6, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  <... read resumed>"\1\0\0\0\0\0\0\0", 8) = 8
+6248  epoll_pwait(7,  <unfinished ...>
+6246  ppoll([{fd=8, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 0 (Timeout)
+6246  ppoll([{fd=8, events=POLLIN}], 1, NULL, NULL, 0) = ? ERESTARTNOHAND (To be restarted if no handler)
+6246  --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
+6248  <... epoll_pwait resumed> <unfinished ...>) = ?
+6247  <... epoll_pwait resumed> <unfinished ...>) = ?
+6248  +++ killed by SIGINT +++
+6247  +++ killed by SIGINT +++
+6246  +++ killed by SIGINT +++
